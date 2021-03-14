@@ -8,8 +8,10 @@ const Note = () => {
         <div id='note-app'>
 
 
-            <p>Quick note: the service options only work for sender country (United States) and receiver country (Senegal).</p>
-            <p>The service options will enable you to check for estimates for the following services: moneyGram, westerUnion, and Ria.</p>
+            <p>sendEstimates is an application geared towards giving real time foreign currencies data for chosen countries.</p>
+            <p>sendEstimates supports more than 100 countries. Choose any sender, and receiver country to get current exchange rates.</p>
+            <p>Quick note: for the choose services to be enabled, the sender country, and receiver country should be : United States, and Senegal respectively.</p>
+
             <br />
         </div>
     )
