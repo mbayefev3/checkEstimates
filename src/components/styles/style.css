@@ -25,6 +25,14 @@ body{
 }
 
 
+#note{
+
+    font-size: 1.2rem;
+    font-family: monospace;
+
+    text-align: center;
+}
+
 #summary{
 
     text-align: center;

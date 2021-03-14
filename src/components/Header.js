@@ -9,7 +9,7 @@ const Title = () => (
 
         <Header as='h1' style={{ textAlign: 'center' }}>SendEstimates</Header>
         <br />
-        <br />
+
 
     </div>
 

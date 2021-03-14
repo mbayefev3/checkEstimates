@@ -5,6 +5,7 @@ import Container from '@material-ui/core/Container';
 
 import Amount from './Amount'
 import ErrorC from './Error'
+import Note from './Note'
 import DropDownForm from './Form'
 
 import { currency } from '../Data/data'
@@ -242,9 +243,9 @@ class AppContainer extends React.Component {
 
                 <React.Fragment>
                     <CssBaseline />
-                    <Container maxWidth="lg">
+                    <Container maxWidth="lg" style={{ backgroundColor: "yellow" }}>
                         <Header />
-
+                        <Note />
                         <DropDownForm onHandleSubmit={this.onHandleSubmit}
                             onHandleReceiver={this.onHandleReceiver}
                             onHandleSender={this.onHandleSender}
