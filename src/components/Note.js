@@ -5,7 +5,7 @@ const Note = () => {
 
 
     return (
-        <div id='note'>
+        <div id='note-app'>
 
 
             <p>Quick note: the service options only work for sender country (United States) and receiver country (Senegal).</p>
